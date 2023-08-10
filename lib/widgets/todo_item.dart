@@ -43,16 +43,16 @@ class ToDoItem extends StatelessWidget {
         ),
         trailing: Container(
           padding: const EdgeInsets.all(0),
-          margin: const EdgeInsets.symmetric(vertical: 12),
-          height: 35,
-          width: 35,
+          margin: const EdgeInsets.symmetric(vertical: 5),
+          height: 45,
+          width: 45,
           decoration: BoxDecoration(
             color: tdRed,
             borderRadius: BorderRadius.circular(5),
           ),
           child: IconButton(
             color: Colors.white,
-            iconSize: 18,
+            iconSize: 25,
             icon: const Icon(Icons.delete),
             onPressed: () {
               // print('Clicked on delete icon');
